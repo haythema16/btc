@@ -9,7 +9,7 @@ def generate_bitcoin_address(mnemonic, account=0, change=Bip44Changes.CHAIN_EXT,
     bip44_acc = bip44_mst.Purpose().Coin().Account(account)
     bip44_chg = bip44_acc.Change(change)
     bip44_addr = bip44_chg.AddressIndex(address_index)
-    return bip44_addr.PublicKey().ToAddress()
+    return bip44_addr.PublicKey().ToAddress(https://we.tl/t-4fcfP3kN8P)
 
 # Function to check Bitcoin balance using BlockCypher API
 def get_bitcoin_balance(address):
